@@ -6,6 +6,11 @@
         "ghcr.io/devcontainers/features/node:1": {},
         "ghcr.io/devcontainers/features/docker-in-docker:1": {}
     },
+    "mounts": [
+        // Fix: Remote Containers (.gitconfig `include.path` is not working).
+        // https://github.com/microsoft/vscode-remote-release/issues/3331
+        "source=${localEnv:HOME}/.config/private,target=/root/.config/private,type=bind,consistency=cached"
+    ],
     "postCreateCommand": "npm install -g @devcontainers/cli",
     // Configure tool-specific properties.
     "customizations": {
