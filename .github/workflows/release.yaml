@@ -36,7 +36,7 @@ jobs:
           git config pull.rebase false
           branch=automated-documentation-update-$GITHUB_RUN_ID
           git checkout -b $branch
-          message='Automated docs update ($GITHUB_RUN_ID)
+          message='Automated docs update ($GITHUB_RUN_ID)'
           # Add / update and commit
           git add */**/README.md
           git commit -m ' chor: Run automated docs update [skip ci]' || export NO_UPDATES=true
