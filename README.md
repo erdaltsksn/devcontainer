@@ -61,7 +61,7 @@ All available options for a feature should be declared in the
 in the [devcontainer feature json properties reference](https://containers.dev/implementors/features/#devcontainer-feature-json-properties).
 
 Options are exported as feature-scoped environment variables. The option name is
-captialized and sanitized according to [option resolution](https://containers.dev/implementors/features/#option-resolution).
+capitalized and sanitized according to [option resolution](https://containers.dev/implementors/features/#option-resolution).
 
 ### Versioning
 
