@@ -1,0 +1,17 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+    "image": "ubuntu:22.04",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+    },
+    "postCreateCommand": "npm install -g @devcontainers/cli",
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode"
+            ]
+        }
+    }
+}
