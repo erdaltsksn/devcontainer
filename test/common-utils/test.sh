@@ -30,6 +30,7 @@ check "git" git --version
 check "make" make --version
 check "unzip" which unzip
 check "zsh" zsh --version
+check "fish" fish --version
 
 # Report result
 reportResults

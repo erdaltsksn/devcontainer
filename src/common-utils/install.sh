@@ -35,6 +35,11 @@ if [ "${INSTALL_ZSH}" = "true" ]; then
     apt install -y --no-install-recommends zsh
 fi
 
+# Optionally install 'fish'.
+if [ "${INSTALL_FISH}" = "true" ]; then
+    apt install -y --no-install-recommends fish
+fi
+
 # Clean up.
 apt autoremove -y && \
 rm -rf /var/lib/apt/lists/*

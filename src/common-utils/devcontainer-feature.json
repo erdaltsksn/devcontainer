@@ -9,6 +9,11 @@
             "type": "boolean",
             "default": true,
             "description": "Install ZSH?"
+        },
+        "install_fish": {
+            "type": "boolean",
+            "default": true,
+            "description": "Install Fish?"
         }
     },
     "customizations": {
