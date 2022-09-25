@@ -36,7 +36,7 @@ repo, this repository has a `src` folder. Each feature has its own sub-folder,
 containing at least a `devcontainer-feature.json` and an entrypoint script
 `install.sh`.
 
-```
+```html
 ├── src
 │   ├── common-utils
 │   │   ├── devcontainer-feature.json
