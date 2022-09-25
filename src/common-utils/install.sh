@@ -47,9 +47,9 @@ if [ "${INSTALL_EXA}" = "true" ]; then
     #
     # ----- Fix for git supported exa version. ---------------------------------
     EXA_VERSION=$(curl -s https://api.github.com/repos/ogham/exa/releases/latest | grep "tag_name" | awk '{print substr($2, 3, length($2)-4)}')
-    wget https://github.com/ogham/exa/releases/download/v${EXA_VERSION}/exa-linux-x86_64-v${EXA_VERSION}.zip
-    unzip -q exa-linux-x86_64-v${EXA_VERSION}.zip bin/exa -d /usr/local
-    rm exa-linux-x86_64-v${EXA_VERSION}.zip
+    wget "https://github.com/ogham/exa/releases/download/v${EXA_VERSION}/exa-linux-x86_64-v${EXA_VERSION}.zip"
+    unzip -q "exa-linux-x86_64-v${EXA_VERSION}.zip" bin/exa -d /usr/local
+    rm "exa-linux-x86_64-v${EXA_VERSION}.zip"
     # ----- Fix for git supported exa version. ---------------------------------
 fi
 
