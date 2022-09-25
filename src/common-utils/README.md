@@ -19,6 +19,7 @@ Installs a set of common command line utilities
 |-----|-----|-----|-----|
 | install_zsh | Install ZSH? | boolean | true |
 | install_fish | Install Fish? | boolean | true |
+| install_exa | Install EXA? | boolean | true |
 
 
 
