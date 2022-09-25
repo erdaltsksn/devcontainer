@@ -31,6 +31,7 @@ check "make" make --version
 check "unzip" which unzip
 check "zsh" zsh --version
 check "fish" fish --version
+check "exa" exa --version | grep "+git"
 
 # Report result
 reportResults
