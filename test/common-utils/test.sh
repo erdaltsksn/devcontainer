@@ -29,6 +29,7 @@ check "wget" wget --version
 check "git" git --version
 check "make" make --version
 check "unzip" which unzip
+check "zsh" zsh --version
 
 # Report result
 reportResults

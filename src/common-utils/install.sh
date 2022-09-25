@@ -30,6 +30,11 @@ apt install -y --no-install-recommends \
     make \
     unzip \
 
+# Optionally install 'zsh'.
+if [ "${INSTALL_ZSH}" = "true" ]; then
+    apt install -y --no-install-recommends zsh
+fi
+
 # Clean up.
 apt autoremove -y && \
 rm -rf /var/lib/apt/lists/*
