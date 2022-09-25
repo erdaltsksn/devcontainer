@@ -16,7 +16,7 @@ images (**This repo uses `ubuntu` for the base image**).
 
 ## Getting Started
 
-To reference a feature from this repository, add the desired features to a 
+To reference a feature from this repository, add the desired features to a
 `devcontainer.json`. Each feature has a `README.md` that shows how to reference
 the feature and which options are available for that feature.
 
