@@ -6,6 +6,10 @@
         "ghcr.io/devcontainers/features/node:1": {},
         "ghcr.io/devcontainers/features/docker-in-docker:1": {}
     },
+    "runArgs": [
+        "--name",
+        "{localWorkspaceFolderBasename}"
+    ],
     "mounts": [
         // Fix: Remote Containers (.gitconfig `include.path` is not working).
         // https://github.com/microsoft/vscode-remote-release/issues/3331
