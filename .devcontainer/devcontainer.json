@@ -8,7 +8,7 @@
     },
     "runArgs": [
         "--name",
-        "{localWorkspaceFolderBasename}"
+        "${localWorkspaceFolderBasename}"
     ],
     "mounts": [
         // Fix: Remote Containers (.gitconfig `include.path` is not working).
