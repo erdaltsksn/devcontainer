@@ -17,7 +17,7 @@ Installs a set of common command line utilities
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| install_zsh | Install ZSH? | boolean | true |
 
 
 
