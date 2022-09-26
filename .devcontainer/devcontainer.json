@@ -21,7 +21,8 @@
         "vscode": {
             "extensions": [
                 "mads-hartmann.bash-ide-vscode"
-            ]
+            ],
+            "settings": {}
         }
     }
 }
