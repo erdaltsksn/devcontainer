@@ -1,6 +1,6 @@
 {
     "id": "common-utils",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "name": "Common Ubuntu Utilities",
     "documentationURL": "https://github.com/erdaltsksn/devcontainer/tree/main/src/common-utils",
     "description": "Installs a set of common command line utilities",

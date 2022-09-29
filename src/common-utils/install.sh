@@ -29,6 +29,7 @@ apt install -y --no-install-recommends \
     git \
     make \
     unzip \
+    tar \
 
 # Optionally install 'zsh'.
 if [ "${INSTALL_ZSH}" = "true" ]; then
