@@ -11,10 +11,10 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        features: [
-          "common-utils"
-        ]
-        baseImage: ["ubuntu:22.04"]
+        features:
+          - "common-utils"
+        baseImage:
+          - "ubuntu:22.04"
 
     steps:
       - name: Check out code
