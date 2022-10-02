@@ -3,7 +3,7 @@
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Ensure apt is in non-interactive to avoid prompts
+# Ensure apt is in non-interactive to avoid prompts.
 # https://bugs.debian.org/929417
 export DEBIAN_FRONTEND=noninteractive
 
