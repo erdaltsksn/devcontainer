@@ -20,6 +20,7 @@ apt install -y --no-install-recommends \
     wget \
     tzdata \
     software-properties-common \
+    locales \
 # Install common applications.
 apt install -y --no-install-recommends \
     openssh-client \
@@ -52,6 +53,12 @@ if [ "${INSTALL_EXA}" = "true" ]; then
     unzip -q "exa-linux-x86_64-v${EXA_VERSION}.zip" bin/exa -d /usr/local
     rm "exa-linux-x86_64-v${EXA_VERSION}.zip"
     # ----- Fix for git supported exa version. ---------------------------------
+fi
+
+# Ensure at least the en_US.UTF-8 UTF-8 locale is available.
+if ! grep -o -E '^\s*en_US.UTF-8\s+UTF-8' /etc/locale.gen > /dev/null; then
+    echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
+    locale-gen
 fi
 
 # Clean up.
