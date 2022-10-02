@@ -23,7 +23,8 @@ rm -rf /var/lib/apt/lists/*
 
 # Fetch latest version of Hugo if needed.
 if [ "${VERSION}" = "latest" ]; then
-    export VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "tag_name" | awk '{print substr($2, 3, length($2)-4)}')
+    latest=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "tag_name" | awk '{print substr($2, 3, length($2)-4)}')
+    export VERSION="${latest}"
 fi
 
 # Build hugo package file name.

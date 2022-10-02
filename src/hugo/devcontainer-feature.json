@@ -1,6 +1,6 @@
 {
     "id": "hugo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Hugo",
     "documentationURL": "https://github.com/erdaltsksn/devcontainer/tree/main/src/hugo",
     "description": "Installs Hugo (A Fast and Flexible Static Site Generator)",
