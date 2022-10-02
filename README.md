@@ -1,5 +1,8 @@
 # DevContainer Features
 
+[![Test](https://github.com/erdaltsksn/devcontainer/actions/workflows/test.yml/badge.svg)](https://github.com/erdaltsksn/devcontainer/actions/workflows/test.yml)
+[![Security Scan](https://github.com/erdaltsksn/devcontainer/actions/workflows/security.yml/badge.svg)](https://github.com/erdaltsksn/devcontainer/actions/workflows/security.yml)
+
 This repository contains a collection of simple and reusable `devcontainer`
 features. Features are designed to install atop a wide-range of base container
 images (**This repo uses `ubuntu` for the base image**).
