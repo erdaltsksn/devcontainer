@@ -13,6 +13,7 @@ jobs:
         os: [ubuntu-latest]
         features:
           - "common-utils"
+          - "go"
           - "hugo"
         baseImage:
           - "ubuntu:22.04"
