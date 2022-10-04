@@ -10,7 +10,7 @@ export DEBIAN_FRONTEND=noninteractive
 # Fetch the latest version of the package list from Ubuntu's repositories.
 apt update -y
 
-# Install requirements.
+# Install script-related dependencies.
 apt install -y --no-install-recommends \
     ca-certificates \
     curl \
