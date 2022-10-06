@@ -1,6 +1,6 @@
 {
     "id": "common-utils",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "name": "Common Ubuntu Utilities",
     "documentationURL": "https://github.com/erdaltsksn/devcontainer/tree/main/src/common-utils",
     "description": "Installs a set of common command line utilities",
@@ -26,7 +26,11 @@
             "extensions": [
                 "redhat.vscode-yaml",
                 "DavidAnson.vscode-markdownlint"
-            ]
+            ],
+            "settings": {
+                // Yaml - Red Hat
+                "redhat.telemetry.enabled": false
+            }
         }
     }
 }
