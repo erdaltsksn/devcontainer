@@ -34,7 +34,7 @@ if [ "${VERSION}" = "latest" ]; then
     GO_VERSION=$(wget -qO- 'https://go.dev/dl/?mode=json' | jq -r 'map(select(.version))'[0].version)
     export VERSION="${GO_VERSION}"
 else
-    GO_VERSION=$(wget -qO- 'https://go.dev/dl/?mode=json' | jq -r 'map(select(.version | startswith("go${VERSION}")))'[0].version)
+    GO_VERSION=$(wget -qO- 'https://go.dev/dl/?mode=json' | jq -r 'map(select(.version | startswith('\"go$VERSION\"')))'[0].version)
     export VERSION="${GO_VERSION}"
 fi
 
