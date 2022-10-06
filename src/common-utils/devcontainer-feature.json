@@ -28,7 +28,6 @@
                 "DavidAnson.vscode-markdownlint"
             ],
             "settings": {
-                // Yaml - Red Hat
                 "redhat.telemetry.enabled": false
             }
         }
