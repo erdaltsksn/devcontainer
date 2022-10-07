@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # This test file will be executed against an auto-generated devcontainer.json
-# that includes the 'gp' feature with no options.
+# that includes the 'go' feature with no options.
 #
 # Eg:
 # {
 #    "image": "<..some-base-image...>",
 #    "features": {
-#      "gp": {}
+#      "go": {}
 #    }
 # }
 #
@@ -27,10 +27,10 @@ source dev-container-features-test-lib
 check "go" go version
 check "gopls" gopls version
 check "dev" dlv version
-check "goplay" which goplay
-check "gomodifytags" which gomodifytags
-check "impl" which impl
-check "gotests" which gotests
+check "goplay" command -v goplay
+check "gomodifytags" command -v gomodifytags
+check "impl" command -v impl
+check "gotests" command -v gotests
 check "golangci-lint" golangci-lint --version
 
 # Report result

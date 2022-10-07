@@ -28,10 +28,10 @@ check "curl" curl --version
 check "wget" wget --version
 check "git" git --version
 check "make" make --version
-check "unzip" which unzip
+check "unzip" command -v unzip
 check "zsh" zsh --version
 check "fish" fish --version
-check "exa" exa --version | grep "+git"
+check "exa with git support" exa --version | grep "+git"
 
 # Report result
 reportResults
