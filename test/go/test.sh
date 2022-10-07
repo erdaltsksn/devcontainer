@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# This test file will be executed against an auto-generated devcontainer.json
+# This test file will be executed against an auto-generated `devcontainer.json`
 # that includes the 'go' feature with no options.
 #
 # Eg:
 # {
-#    "image": "<..some-base-image...>",
-#    "features": {
-#      "go": {}
-#    }
+#     "image": "<ubuntu-based-image>",
+#     "features": {
+#         "go": {}
+#     }
 # }
 #
-# Thus, the value of all options, will fall back to the default value in the 
-# feature's 'devcontainer-feature.json'
-# 
-# This test can be run with the following command (from the root of this repo)
+# Thus, the value of all options, will fall back to the default value in the
+# feature's `devcontainer-feature.json`
+#
+# This test can be run with the following command (from the root of this repo):
 #   devcontainer features test . --features go --base-image ubuntu:22.04
 
 set -e
