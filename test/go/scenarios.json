@@ -1,0 +1,11 @@
+{
+    "test_options": {
+        "image": "ubuntu:22.04",
+        "features": {
+            "go": {
+                "version": "1.18"
+            }
+        },
+        "postCreateCommand": "go install github.com/erdaltsksn/random/cmd/random@latest"
+    }
+}

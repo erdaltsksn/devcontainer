@@ -1,0 +1,11 @@
+{
+    "test_options": {
+        "image": "ubuntu:22.04",
+        "features": {
+            "hugo": {
+                "variant": "hugo",
+                "version": "0.101.0"
+            }
+        }
+    }
+}

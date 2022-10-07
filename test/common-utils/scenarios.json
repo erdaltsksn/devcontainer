@@ -1,0 +1,12 @@
+{
+    "test_options": {
+        "image": "ubuntu:22.04",
+        "features": {
+            "common-utils": {
+                "install_zsh": false,
+                "install_fish": false,
+                "install_exa": false
+            }
+        }
+    }
+}
