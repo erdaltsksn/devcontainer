@@ -1,6 +1,6 @@
 {
     "id": "common-utils",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "name": "Common Ubuntu Utilities",
     "documentationURL": "https://github.com/erdaltsksn/devcontainer/tree/main/src/common-utils",
     "description": "Installs a set of common command line utilities",
@@ -28,6 +28,9 @@
                 "DavidAnson.vscode-markdownlint"
             ],
             "settings": {
+                "files.associations": {
+                    "LICENSE*": "plaintext"
+                },
                 "redhat.telemetry.enabled": false,
                 "markdownlint.config": {
                     "MD010": {
