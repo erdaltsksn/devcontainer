@@ -7,9 +7,9 @@ Installs Go and common Go utilities
 
 ```json
 "features": {
-        "ghcr.io/erdaltsksn/devcontainer/go:1": {
-            "version": "latest"
-        }
+    "ghcr.io/erdaltsksn/devcontainer/go:1": {
+        "version": "latest"
+    }
 }
 ```
 

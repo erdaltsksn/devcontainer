@@ -7,9 +7,9 @@ Installs Hugo (A Fast and Flexible Static Site Generator)
 
 ```json
 "features": {
-        "ghcr.io/erdaltsksn/devcontainer/hugo:1": {
-            "version": "latest"
-        }
+    "ghcr.io/erdaltsksn/devcontainer/hugo:1": {
+        "version": "latest"
+    }
 }
 ```
 
