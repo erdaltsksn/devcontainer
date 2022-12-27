@@ -7,9 +7,7 @@ Installs a set of common command line utilities
 
 ```json
 "features": {
-    "ghcr.io/erdaltsksn/devcontainer/common-utils:1": {
-        "version": "latest"
-    }
+    "ghcr.io/erdaltsksn/devcontainer/common-utils:1": {}
 }
 ```
 
