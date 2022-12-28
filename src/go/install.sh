@@ -25,6 +25,7 @@ apt install -y --no-install-recommends \
     wget \
     gnupg2 \
     jq \
+    tar \
 
 # Clean up.
 apt autoremove -y && \
