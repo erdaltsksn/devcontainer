@@ -1,4 +1,3 @@
-
 # Go (go)
 
 Installs Go and common Go utilities
@@ -16,8 +15,6 @@ Installs Go and common Go utilities
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Select or enter a version | string | latest |
-
-
 
 ---
 

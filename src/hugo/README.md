@@ -1,4 +1,3 @@
-
 # Hugo (hugo)
 
 Installs Hugo (A Fast and Flexible Static Site Generator)
